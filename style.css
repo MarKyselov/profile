@@ -1,0 +1,158 @@
+:root {
+    --darkcyan: hsl(185, 75%, 39%);
+    --darkblue: hsl(229, 23%, 23%);
+    --grayishblue: hsl(227, 10%, 46%);
+    --darkgray: hsl(0, 0%, 59%);
+    --fsize: 18px;
+    --fw: 700;
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+h3,
+p,
+h4 {
+    margin: 0;
+}
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "YOPQ" 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    background-color: var(--darkcyan);
+    height: 100%;
+    background-image: url(./images/bg-pattern-top.png), url(./images/bg-pattern-bottom.png);
+    background-repeat: no-repeat;
+    /* background-position: left top; */
+    background-position: 0 0, right bottom;
+
+}
+
+.card {}
+
+.bgpattern {
+    width: 350px;
+    height: 140px;
+    background-image: url(./images/cardbg.png);
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 72px;
+}
+
+.avatar {
+    width: 96px;
+    height: 96px;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    top: 100%;
+    /* transform: translateY(-50%); */
+    left: 50%;
+    /* transform: translateX(-50%); */
+    transform: translate(-50%,-50%);
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.city {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6B7082;
+
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid var(--darkgray);
+    padding-top: 20px;
+    margin-top: 25px;
+
+}
+
+.info-item {}
+
+article {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 374px;
+    align-items: center;
+    border-radius: 15px;
+
+
+
+}
+
+body>img {
+    width: 373px;
+
+
+}
+
+h3 {
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+}
+
+span {
+    color: #6B7082;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 9px;
+}
+
+.subinfo {
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    height: 12px;
+
+
+
+
+
+}
+
+h4 {
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2E3349;
+
+
+}
